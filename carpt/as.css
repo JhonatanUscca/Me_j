@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+h2 {
+    color: red;
+}
+.tabla {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tabla tr{
+    border: 1px solid #000000;
+}
+
+.tabla td {
+    border: 1px solid #000000;
+    padding: 8px 20px;
+}
+
+.primo{
+    color: red;
+}
