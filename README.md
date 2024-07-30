@@ -101,7 +101,7 @@ El modelo BPMN contiene dos áreas funcionales que son ‘Gerencia’ y ‘RRHH/
 
 - **Entrada:** Nuevas contrataciones
 - **Proceso:** Contratación
-- **Salida:** Personal capacitado y motivado, cumplimiento de normativas laborales.
+- **Salida:** Contratación del nuevo persona
 
 #### 3.1.3 Modelo de Datos: Diagrama de Clases UML
 ####    3.1.4 Variables
