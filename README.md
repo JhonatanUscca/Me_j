@@ -100,7 +100,7 @@ El modelo BPMN contiene dos áreas funcionales que son ‘Gerencia’ y ‘RRHH/
 #### 3.1.2 Elementos de información necesarios (dato o información) en el proceso de negocio:
 
 - **Entrada:** Nuevas contrataciones
-- **Proceso:** Contratación
+- **Proceso:** Reclutamiento
 - **Salida:** Contratación del nuevo persona
 
 #### 3.1.3 Modelo de Datos: Diagrama de Clases UML
