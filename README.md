@@ -116,5 +116,54 @@ El modelo BPMN contiene dos áreas funcionales que son ‘Gerencia’ y ‘RRHH/
 [![22.png](https://i.postimg.cc/vBBLg5Kw/22.png)](https://postimg.cc/bG724S8m)
 
 
+
+
+
+## Nombre de proceso: Modelo y Descripción del modelo
+
+* Soporte al cliente: El modelo BPMN contiene dos áreas funcionales que son ‘Gerencia’ y ‘RRHH/Secretaria’, además tiene un rol que es el ‘Postulante’. El proceso empieza con la solicitud de la postulante. La secretaria recibirá la solicitud y comprobará las calificaciones básicas, además de informar al postulante si fue aceptada o no. La Gerencia examina las calificaciones con más detalle y hace una entrevista personal con el citado.
+
+[![Gestion-de-Relaciones-Humanas-1-0.png](https://i.postimg.cc/gc7Sbgnb/Gestion-de-Relaciones-Humanas-1-0.png)](https://postimg.cc/SjW7W76g)
+
+### Elementos de información necesarios (datos o información) en el proceso de negocio.
+
+* Servicios del proyecto de IS3 (Consultar ofertas, Consultar productos)
+
+### Variables
+
+* Cliente
+* Consulta
+* Solicion
+* Producto
+* Oferta
+* ProductoDetalles
+
+### Contratos y Restricciones
+
+| Tarea  | Variable | Propiedades |
+| ------------- | ------------- | ---- |
+| Chequea consulta | Consulta, Cliente  | esValido, derivar, necesitainformacionExtra, informacionValida |
+| Envia informacion extra fase general | Consulta, Cliente | mensaje, numeroTelefono, numeroCuenta |
+| Resuelve la consulta  fase general  | Solucion  | mensaje |
+| Chequea consulta fase tecnica | Consulta, Cliente | esValido, derivar, necesitainformacionExtra, informacionValida |
+| Envia informacion extra fase tecnica | Consulta, Cliente | mensaje, numeroTelefono, numeroCuenta | 
+| Resuelve la consulta  fase tecnica | Solucion | mensaje |
+
+
+### Formularios: GUI
+
+* hacerConsulta
+* chequearConsultaFaseGeneral
+* enviarInformacionExtra
+* chequearConsultaFaseTecnico
+* resolverConsultaFaseGeneral
+* resolverConsultaFaseTecnica
+
+### Mapeamiento de Actores y Roles
+
+* cliente: Puede hacer consultas al soporte tecnico, puede enviar informacion extra cuando el soporte tecnico se lo solicita.
+* soporte de nivel general
+* soporte de nivel tecnico
+
 ####    3.1.7 Mapeamiento de Actores y Roles
 
