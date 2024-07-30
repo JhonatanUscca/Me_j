@@ -103,3 +103,4 @@ El modelo BPMN contiene dos áreas funcionales que son ‘Gerencia’ y ‘RRHH/
 
 #### 3.1.3 Modelo de Datos: Diagrama de Clases UML
 
+[![Gestion-de-Relaciones-Humanas-1-0.png](https://i.postimg.cc/gc7Sbgnb/Gestion-de-Relaciones-Humanas-1-0.png)](https://postimg.cc/SjW7W76g)
