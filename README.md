@@ -79,4 +79,29 @@ _________________________________________
 _________________________________________
 
 
+# 3. Modelos de Procesos de Negocio según Notación BPMN
+
+## Gestión de Relaciones Humanas
+
+### 3.1 Nombre de proceso: Modelo y Descripción del modelo
+
+**Gestión de Relaciones Humanas:**
+
+**Descripción del Modelo:**
+El modelo BPMN contiene dos áreas funcionales que son ‘Gerencia’ y ‘RRHH/Secretaria’, además tiene un rol que es el ‘Postulante’. El proceso empieza con la solicitud de la postulante. La secretaria recibirá la solicitud y comprobará las calificaciones básicas, además de informar al postulante si fue aceptada o no. La Gerencia examina las calificaciones con más detalle y hace una entrevista personal con el citado.
+
+#### 3.1.1 Sectores/departamentos/áreas-funcionales/papeles/roles involucrados en el proceso de negocio:
+- Gerencia
+- RRHH/Secretaria
+- Postulante
+
+#### 3.1.2 Elementos de información necesarios (dato o información) en el proceso de negocio:
+
+- **Entrada:** Nuevas contrataciones
+- **Proceso:** Contratación
+- **Salida:** Personal capacitado y motivado, cumplimiento de normativas laborales.
+
+- **Entrada:** Nuevas contrataciones, necesidades de capacitación, regulaciones laborales.
+- **Proceso:** Contratación, capacitación, evaluación de desempeño, gestión de nómina.
+- **Salida:** Cumplimiento de normativas laborales.
 
